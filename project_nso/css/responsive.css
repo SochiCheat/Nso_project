@@ -1,0 +1,642 @@
+/************************************************
+
+///////////////////////////////////////////////// 
+
+   *lLaptop with 1366x768
+
+/////////////////////////////////////////////////   
+
+*************************************************/
+@media(max-width:1366px){
+    .carousel .carousel-inner .sl-picture{right: 2% !important;}
+    .carousel .carousel-inner .sl-picture img {
+        width: 74% !important;
+    }
+    .carousel .carousel-inner .sl-img{right: 20%}
+    .carousel .carousel-inner .sl-img img{width: 70% !important;}
+    .carousel .carousel-inner .sl-img-2{right: -40% !important;}
+    .carousel .carousel-inner .sl-img-2 img{width: 45% !important}
+}
+/************************************************
+
+///////////////////////////////////////////////// 
+
+   *lLaptop with HiDPI screen*
+
+/////////////////////////////////////////////////   
+
+*************************************************/
+
+
+
+@media(max-width: 1540px){
+
+    /*slider*/
+
+    .carousel .carousel-inner .sl-img-2{
+        position: absolute !important;
+        bottom: 18% !important;
+        right: -32% !important;
+     }
+    .carousel .carousel-inner .sl-img-2 img{width: 65%}
+    .carousel .carousel-inner .item-desc h2{
+
+        width: 695px !important;
+
+        margin-top: 8% !important;
+
+        font-size: 40px !important;
+
+        line-height: 50px !important;
+
+    }
+
+    .carousel .carousel-inner .item-desc p{ margin:5px !important;}
+
+    /*.carousel .carousel-inner .sl-picture img{width: 80% !important;}*/
+
+    .carousel .carousel-inner .sl-img{bottom: 80px !important;right: 45px !important} 
+
+    .carousel .carousel-inner .sl-img img{width: 80%}
+
+       /*background images*/
+
+    .top-background{
+
+        background-position: center !important;
+
+        height: 400px !important;
+
+        /*margin-bottom: 10px !important;*/
+
+    }
+
+    .top-background h2{
+
+        width: 200px !important;
+
+        /*margin: -152px 0px 0px 450px !important;*/
+
+        font-size: 20px !important;
+
+    }
+
+}
+
+/************************************************
+
+///////////////////////////////////////////////// 
+
+   *lLaptop with MDPI screen**
+
+/////////////////////////////////////////////////   
+
+*************************************************/
+
+@media(max-width: 1280px){
+
+    /*slider*/
+
+    .carousel .carousel-inner .item-desc h2{margin-top: 10% !important;font-size: 34px !important;}
+
+    .carousel .carousel-inner .sl-picture img{width: 80% !important;float: right;} 
+
+    .carousel .carousel-inner .sl-img{bottom: 50px !important;right: -135px !important} 
+
+    .carousel .carousel-inner .sl-img img{width: 60% !important;}
+
+    .wrapper .carousel{
+
+        height: 70vh;
+
+        background-size: none;
+
+    }
+
+    .wrapper .carousel .carousel-inner,
+
+    .wrapper .carousel .carousel-inner .item{
+
+        float: left;
+
+        width: 100%;
+
+        position: relative;
+
+        height: 70vh;
+    }   
+    .carousel .carousel-inner .sl-img-2{
+        position: absolute !important;
+        bottom: 10% !important;
+        right:  10% !important
+     }
+    .carousel .carousel-inner .sl-img-2 img{width: 58% !important;float: right;}
+    .carousel .carousel-inner .item-desc h2,
+
+    .carousel .carousel-inner .item-desc p,
+
+    .carousel .carousel-inner .item-desc ul,
+
+    .carousel .carousel-inner .item-desc .btn-send{margin-left: 5% !important;}
+
+    .carousel .carousel-inner .item-desc ul li{
+
+      padding: 10px !important;
+
+    }
+
+    .carousel .carousel-inner .item-desc ul li h3{font-size: 30px !important;}
+
+       /*background images*/
+
+    .top-background{
+
+        background-position: center !important;
+
+        height: 200px !important;
+
+        /*margin-bottom: 10px !important;*/
+
+    }
+
+    .top-background h2{
+
+        width: 170px !important;
+
+        /*margin: -88px 0px 0px 480px !important;*/
+
+        font-size: 17px !important;
+
+    }
+
+    .breadcrumb h4{font-size: 16px}
+
+}
+
+/************************************************
+
+///////////////////////////////////////////////// 
+
+Ipad Pro 12.9 inch,Ipad Pro 10.5 inch, Ipad min**
+
+/////////////////////////////////////////////////   
+
+*************************************************/
+
+/*Ipad Pro 12.9 inch*/
+
+@media (min-width: 1024px){
+
+    .how-we-work .form-we-work .form-requirment .req-title{margin-left: 0% !important;}
+
+}
+
+
+
+/*Ipad Pro 10.5 inch, Ipad, Ipad min*/
+
+@media  (min-width: 768px) and (max-width: 1024px){
+
+    
+
+    /*how-we-work*/
+
+    .how-we-work .title h2, .wrpapper-our-service h2, .our-client h2, .our-portfolios h2,
+
+    .why-choose-us h2, .our-team h2, .wrpapper-welcome h2, .contact-us .contact-left h2, .wrpapper-aboutus h2, 
+
+    .contact-us .contact-right h3{font-size: 28px !important;}
+
+    .how-we-work .form-we-work .form-requirment .req-title{margin-left: 45%;}
+
+    .how-we-work .form-we-work .form-requirment .req-title h3{font-size: 18px;}
+
+    /*slider*/
+
+    .wrapper .carousel{
+
+        height: 50vh;
+
+        background-size: none;
+
+    }
+
+    .wrapper .carousel .carousel-inner,
+
+    .wrapper .carousel .carousel-inner .item{
+
+        float: left;
+
+        width: 100%;
+
+        position: relative;
+
+        height: 50vh;
+
+
+
+    }
+    .wrapper .carousel .carousel-inner .sl-img-2 img{width: 70% !important;float: right;}
+    .wrapper .carousel .carousel-inner .sl-img{bottom: 50px !important; right:0px!important;} 
+
+    .wrapper .carousel .carousel-inner .sl-img img{
+
+        width: 50% !important;
+
+        float: right;
+
+        margin-right: 53px;
+
+    }
+    .wrapper .carousel .carousel-inner .sl-picture {right: 0% !important}
+    .wrapper .carousel .carousel-inner .sl-picture img{width: 56%!important;}
+
+    .wrapper .carousel .carousel-inner .item-desc h2{
+
+        margin-top: 10% !important;
+
+        font-size: 30px !important;
+
+        line-height: 40px !important;
+
+    }
+
+    .wrapper .carousel .carousel-inner .item-desc ul li{padding: 5px !important; }
+
+    .carousel .carousel-inner .item-desc h2,
+
+    .carousel .carousel-inner .item-desc p,
+
+    .carousel .carousel-inner .item-desc ul,
+
+    .carousel .carousel-inner .item-desc .btn-send{margin-left: 8% !important;}
+
+    .wrapper .carousel .carousel-inner .item-desc ul li h3{font-size: 28px !important;}
+
+
+
+    /*our-service*/
+
+    .wrpapper-our-service .all-service .list-service h3{font-size: 18px !important;}
+
+    .margin{margin: 0px 0px 0px 90px !important;}   
+
+    /*our team*/
+
+    .our-team{width: 100%;}
+
+    .our-team .list-our-team .our-team-img {position: relative;}
+
+    .agent-img-overlay-1{ border-width: 0px 182px 64px 0;}
+
+    .box17 { margin-bottom: 30px; }
+    .our-team .list-our-team .agent-details{padding: 40px 8px !important;}
+    .our-team .list-our-team .agent-details h3{font-size: 16px !important;}
+    .our-team .list-our-team .agent-details .agent-contact{ padding: 0px !important;}
+    .our-team .list-our-team .agent-details .agent-contact li{
+        font-size: 12px !important;
+        line-height: 25px !important;
+    }
+    .icon-user,
+    .icon-phone,
+    .icon-email{
+        padding: 0px 18px !important;
+        background-size: 13px !important;
+    }
+    .cboxPhoto{
+        width: 800px !important;
+        float: left !important;
+        height: 600px !important;
+    }
+
+    /*free qoute*/
+
+    .free-qoute .offset-2{margin: 0px!important;}
+
+    .contact-form {margin-top: 25px;}
+
+    .btn-send {
+
+         width: 100%;
+
+         padding: 10px;
+
+     }
+
+    .second-portion { margin-top: 25px; }
+
+    /*footer*/
+
+    .wrapper-footer .sub-footer .info-footer .list-link li{
+
+        font-size: 14px;
+
+        width: 165px !important;
+
+     }
+
+     .wrapper-footer .sub-footer .info-footer p{font-size: 14px !important;}
+
+     .wrapper-footer .sub-footer .info-footer .list-link p{width: 140px !important;margin-left: 20px !important;}
+
+     /*--our-client----*/
+
+     .our-client p, .our-portfolios p, .contact-us .contact-left p, .wrpapper-our-service p, 
+
+     .our-team p, .wrpapper-welcome p{font-size: 16px!important;}
+
+     .item .btn-send{width: 160px;}
+
+     .free-qoute .btn-send {width: 100px; }
+
+      /*header menu*/
+
+    .head-wrapper .top-header .top-header-right .header-info li{margin: 0px !important;}
+
+    .head-wrapper .top-header .top-logo{padding: 12px 0px 12px 0px !important;}
+
+    /*.head-wrapper .top-header .top-header-right{display: none;}*/
+
+    .wrapper .menu .nav-bar li a{font-size: 12px;  padding: 12px 8px;}
+
+    .wrapper .menu .nav-bar li{padding:9px 0px;}
+
+    .wrapper .menu .info-icon li{display: none;}
+
+    /*background images*/
+
+    .top-background{
+
+        background-position: center !important;
+
+        height: 200px !important;
+
+        /*margin-bottom: 10px !important;*/
+
+    }
+
+    .top-background h2{
+
+        width: 170px !important;
+
+        /*margin: -95px 0px 0px 315px !important;                                     */
+
+        font-size: 17px !important;
+
+    }
+
+    .breadcrumb h4{font-size: 16px}
+
+      /*page contactus*/
+
+    .contact-us .contact-right h3 {font-size: 26px !important;}
+
+    .contact-us .contact-right li {padding: 0px 40px !important;}
+
+}  
+    .box17 .box-content{padding: 10px !important;}
+    .box17 .title{ font-size: 14px !important;}
+
+/************************************************
+
+///////////////////////////////////////////////// 
+
+            **iphone**
+
+/////////////////////////////////////////////////   
+
+*************************************************/
+
+
+
+@media (min-width: 360px) and (max-width: 760px){
+
+    /*slide*/
+    .carousel .carousel-inner .sl-img-2 img{width: 70% !important;float: right;}
+    .wrapper .carousel .carousel-inner .sl-img{bottom: 40px !important; right:0px!important;} 
+
+    .wrapper .carousel .carousel-inner .sl-img img{
+
+        width: 60% !important;
+
+        float: right;
+
+        margin-right: 30px;
+
+    }
+
+      .wrapper .carousel{
+
+        height: 50vh;
+
+        background-size: none;
+
+    }
+
+    .wrapper .carousel .carousel-inner,
+
+    .wrapper .carousel .carousel-inner .item{
+
+        float: left;
+
+        width: 100%;
+
+        position: relative;
+
+        height: 50vh !important;
+
+    }
+
+    .wrapper .carousel .carousel-inner .sl-picture img{width: 44% !important;margin-right: -13%;}
+
+    .wrapper .carousel .carousel-inner .item-desc h2{
+
+    width: 350px !important;
+
+     font-size: 18px !important;
+
+     margin-top: 10% !important;
+
+    line-height: 28px !important;
+
+    }
+
+    .wrapper .carousel .carousel-inner .item-desc ul li h3{font-size:18px !important;}
+
+    .wrapper .carousel .carousel-inner .item-desc ul li{
+
+      padding: 5px !important;
+
+      font-size: 10px !important;
+
+      line-height: 16px !important;
+
+      margin-left: -10px !important;
+
+    }
+
+    .wrapper .carousel .carousel-inner .item-desc .btn-send{padding: 5px 18px;font-size: 15px;}
+
+    .wrapper .carousel .carousel-inner .item-desc p{font-size: 14px; margin: 0px !important;}
+
+    .wrapper .carousel .carousel-inner .item-desc ul li a{font-size: 14px; line-height: 0px;}
+
+    .wrapper .carousel .carousel-inner .item-desc .btn-send,
+
+    .wrapper .carousel .carousel-inner .item-desc ul,
+
+    .wrapper .carousel .carousel-inner .item-desc h2,
+
+    .wrapper .carousel .carousel-inner .item-desc p{ margin-left: 0px !important; margin-bottom: 0%;}
+
+    .slider .carousel .carousel-control i{display: none;}
+
+
+
+    /*how we work*/
+
+    .how-we-work .title h2, .wrpapper-our-service h2, .our-client h2, .our-portfolios h2,
+
+    .our-team h2, .wrpapper-welcome h2, .contact-us .contact-left h2{font-size: 26px !important;}
+
+    .wrpapper-our-service .all-service .list-service h3{font-size: 20px !important;}
+
+    .how-we-work .form-we-work .form-requirment .req-title{margin-left: 30%;}
+
+    .how-we-work .form-we-work .form-requirment .req-title h3{font-size: 18px;}
+
+    .offset-1,  .offset-3{margin:0px !important;}
+
+    .our-team-center{margin-left: 100px !important}
+
+    .padding,    
+
+    .padding-2{padding: 0px !important;}
+
+    .our-client p, .our-portfolios p, .contact-us .contact-left p, .wrpapper-our-service p, .our-team p, .wrpapper-welcome p{font-size: 16px!important;}
+    .our-portfolios .portfolios-tab .filter-button{padding: 0px 18px !important;}
+
+    /*menu*/
+
+    .menu{
+
+        background-color: #fff !important;
+
+        color: #0FA356 !important;
+
+        padding: 10px 0px 0px 10px;
+
+    }
+
+    .toggle {display: block !important;float:right!important;}
+
+    .toggle i{color: #0FA356 !important;}
+
+    .info-icon,
+
+    .header-info,
+
+    .menu .nav-bar {width: 100%;display: none;}
+
+    .menu .nav-bar li {
+
+        display: block!important;
+
+        text-align: left !important;
+
+        padding: 10px !important;
+
+    }
+    .menu .nav-bar li:hover{background-color: #009688 !important}
+    .menu .nav-bar li a{font-size: 14px !important;padding: 10px 275px 10px 0px !important;}
+    .menu .nav-bar li a:hover{color:#fff !important;background-color: unset !important;}
+
+    .menu .nav-bar{
+
+        width: 414px;
+
+        background-color: #0FA356;
+
+        margin-left: -25px !important;
+
+    }
+
+    .head-wrapper .top-header .top-logo  {
+
+        position: absolute !important;
+
+    }
+
+    /*team*/
+
+    .our-team .list-our-team .agent-details .agent-contact{ padding: 0px !important;}
+
+    .our-team .list-our-team .agent-details .agent-contact li{font-size: 12px !important}
+    .our-team .list-our-team .agent-details{ padding: 40px 8px !important;}
+    .icon-user,
+    .icon-phone,
+    .icon-email{
+        padding: 0px 17px !important;
+        background-size: 13px !important;
+    }
+    .our-team .list-our-team .agent-details h3{font-size: 16px !important;}
+    .cboxPhoto{
+        width: 414px !important;
+        float: left !important;
+        height: 300px !important;
+    }
+
+      /*background images*/
+
+    .top-background{
+
+        height: 120px !important;
+
+        background-position: center !important;
+
+   
+
+    }
+
+     .top-background h2{
+
+        width: 115px !important;
+
+        
+
+        font-size: 11px !important;
+       
+
+    }
+
+    .breadcrumb i{font-size: 16px !important;}
+
+    .breadcrumb h4{font-size: 12px}
+
+     /*why choose us*/
+
+    .no-padding-about{
+
+        padding-left: 0 !important;
+
+        padding-right: 0 !important;
+
+    }
+
+      /*contact us*/
+
+    .contact-us .contact-right{margin: 30px 0px;}
+
+    .contact-us .contact-right h3 {font-size: 20px !important;}
+    /*our portfolios*/
+    .box17 .box-content{padding: 6px 10px !important; }
+    .box17 .icon li a{
+        width: 40px !important;
+        height: 42px !important;
+    }
+    .box17 .title{ font-size: 14px !important;}
+    .box17:hover .icon li:first-child a {
+    left: -38px !important;}
+    /*footer*/
+    .wrapper-footer .copy-right{line-height: 30px !important;}
+}
